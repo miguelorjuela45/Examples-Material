@@ -9,11 +9,12 @@ import { MatTableModule } from '@angular/material/table';
 import { MovieService } from './service/movie.service';
 import { TeachersComponent } from './teachers/teachers.component';
 import { AutocompleteComponent } from './autocomplete/autocomplete.component';
-import { MatFormFieldModule, MatAutocompleteModule, MatOptionModule, MatInputModule, 
-        MatCheckboxModule, MatDatepickerModule, MatNativeDateModule} from '@angular/material';
+import { MatFormFieldModule, MatAutocompleteModule, MatOptionModule, MatInputModule,
+        MatCheckboxModule, MatDatepickerModule, MatNativeDateModule, MatSelectModule} from '@angular/material';
 import { CheckboxComponent } from './checkbox/checkbox.component';
 import { DatapickerComponent } from './datapicker/datapicker.component';
 import { FormfieldComponent } from './formfield/formfield.component';
+import { InputComponent } from './input/input.component';
 
 
 
@@ -25,7 +26,8 @@ import { FormfieldComponent } from './formfield/formfield.component';
     AutocompleteComponent,
     CheckboxComponent,
     DatapickerComponent,
-    FormfieldComponent
+    FormfieldComponent,
+    InputComponent
   ],
   imports: [
     BrowserModule,
@@ -38,7 +40,8 @@ import { FormfieldComponent } from './formfield/formfield.component';
     MatInputModule,
     MatCheckboxModule,
     MatDatepickerModule,
-    MatNativeDateModule
+    MatNativeDateModule,
+    MatInputModule
   ],
   providers: [MovieService],
   bootstrap: [AppComponent]
