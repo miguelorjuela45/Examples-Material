@@ -10,6 +10,7 @@ import { FormfieldComponent } from './formfield/formfield.component';
 import { InputComponent } from './input/input.component';
 import { RadiobuttonComponent } from './radiobutton/radiobutton.component';
 import { SelectComponent } from './select/select.component';
+import { SliderComponent } from './slider/slider.component';
 
 
 const routes: Routes = [
@@ -22,6 +23,7 @@ const routes: Routes = [
   {path: 'Input', component: InputComponent},
   {path: 'Radio-button', component: RadiobuttonComponent},
   {path: 'Select', component: SelectComponent},
+  {path: 'Slider', component: SliderComponent},
   {path: 'Form-field', component: FormfieldComponent}
 ];
 

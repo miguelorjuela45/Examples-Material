@@ -11,13 +11,15 @@ import { TeachersComponent } from './teachers/teachers.component';
 import { AutocompleteComponent } from './autocomplete/autocomplete.component';
 import { MatFormFieldModule, MatAutocompleteModule, MatOptionModule, MatInputModule,
         MatCheckboxModule, MatDatepickerModule, MatNativeDateModule, MatRadioButton, MatRadioModule,
-        MatSelectModule} from '@angular/material';
+        MatSelectModule,
+        MatSliderModule} from '@angular/material';
 import { CheckboxComponent } from './checkbox/checkbox.component';
 import { DatapickerComponent } from './datapicker/datapicker.component';
 import { FormfieldComponent } from './formfield/formfield.component';
 import { InputComponent } from './input/input.component';
 import { RadiobuttonComponent } from './radiobutton/radiobutton.component';
 import { SelectComponent } from './select/select.component';
+import { SliderComponent } from './slider/slider.component';
 
 
 
@@ -32,7 +34,8 @@ import { SelectComponent } from './select/select.component';
     FormfieldComponent,
     InputComponent,
     RadiobuttonComponent,
-    SelectComponent
+    SelectComponent,
+    SliderComponent
   ],
   imports: [
     BrowserModule,
@@ -47,7 +50,8 @@ import { SelectComponent } from './select/select.component';
     MatDatepickerModule,
     MatNativeDateModule,
     MatRadioModule,
-    MatSelectModule
+    MatSelectModule,
+    MatSliderModule
   ],
   providers: [MovieService],
   bootstrap: [AppComponent]
