@@ -11,6 +11,7 @@ import { InputComponent } from './input/input.component';
 import { RadiobuttonComponent } from './radiobutton/radiobutton.component';
 import { SelectComponent } from './select/select.component';
 import { SliderComponent } from './slider/slider.component';
+import { SlidetoggleComponent } from './slidetoggle/slidetoggle.component';
 
 
 const routes: Routes = [
@@ -24,6 +25,7 @@ const routes: Routes = [
   {path: 'Radio-button', component: RadiobuttonComponent},
   {path: 'Select', component: SelectComponent},
   {path: 'Slider', component: SliderComponent},
+  {path: 'Slide-toogle', component: SlidetoggleComponent},
   {path: 'Form-field', component: FormfieldComponent}
 ];
 
