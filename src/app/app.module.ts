@@ -10,8 +10,9 @@ import { MovieService } from './service/movie.service';
 import { TeachersComponent } from './teachers/teachers.component';
 import { AutocompleteComponent } from './autocomplete/autocomplete.component';
 import { MatFormFieldModule, MatAutocompleteModule, MatOptionModule, MatInputModule, 
-        MatCheckboxModule } from '@angular/material';
+        MatCheckboxModule, MatDatepickerModule, MatNativeDateModule} from '@angular/material';
 import { CheckboxComponent } from './checkbox/checkbox.component';
+import { DatapickerComponent } from './datapicker/datapicker.component';
 
 
 
@@ -21,7 +22,8 @@ import { CheckboxComponent } from './checkbox/checkbox.component';
     MovieListComponent,
     TeachersComponent,
     AutocompleteComponent,
-    CheckboxComponent
+    CheckboxComponent,
+    DatapickerComponent
   ],
   imports: [
     BrowserModule,
@@ -32,7 +34,9 @@ import { CheckboxComponent } from './checkbox/checkbox.component';
     MatAutocompleteModule,
     MatOptionModule,
     MatInputModule,
-    MatCheckboxModule
+    MatCheckboxModule,
+    MatDatepickerModule,
+    MatNativeDateModule
   ],
   providers: [MovieService],
   bootstrap: [AppComponent]
