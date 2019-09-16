@@ -13,7 +13,8 @@ import { MatFormFieldModule, MatAutocompleteModule, MatOptionModule, MatInputMod
         MatCheckboxModule, MatDatepickerModule, MatNativeDateModule, MatRadioButton, MatRadioModule,
         MatSelectModule,
         MatSliderModule,
-        MatSlideToggleModule} from '@angular/material';
+        MatSlideToggleModule,
+        MatTabsModule} from '@angular/material';
 import { CheckboxComponent } from './checkbox/checkbox.component';
 import { DatapickerComponent } from './datapicker/datapicker.component';
 import { FormfieldComponent } from './formfield/formfield.component';
@@ -22,6 +23,7 @@ import { RadiobuttonComponent } from './radiobutton/radiobutton.component';
 import { SelectComponent } from './select/select.component';
 import { SliderComponent } from './slider/slider.component';
 import { SlidetoggleComponent } from './slidetoggle/slidetoggle.component';
+import { PrincipalComponent } from './principal/principal.component';
 
 
 
@@ -38,7 +40,8 @@ import { SlidetoggleComponent } from './slidetoggle/slidetoggle.component';
     RadiobuttonComponent,
     SelectComponent,
     SliderComponent,
-    SlidetoggleComponent
+    SlidetoggleComponent,
+    PrincipalComponent
   ],
   imports: [
     BrowserModule,
@@ -55,7 +58,8 @@ import { SlidetoggleComponent } from './slidetoggle/slidetoggle.component';
     MatRadioModule,
     MatSelectModule,
     MatSliderModule,
-    MatSlideToggleModule
+    MatSlideToggleModule,
+    MatTabsModule
   ],
   providers: [MovieService],
   bootstrap: [AppComponent]

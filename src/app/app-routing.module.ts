@@ -12,10 +12,11 @@ import { RadiobuttonComponent } from './radiobutton/radiobutton.component';
 import { SelectComponent } from './select/select.component';
 import { SliderComponent } from './slider/slider.component';
 import { SlidetoggleComponent } from './slidetoggle/slidetoggle.component';
+import { PrincipalComponent } from './principal/principal.component';
 
 
 const routes: Routes = [
-  {path: '', component: AppComponent},
+  {path: '', component: PrincipalComponent},
   {path: 'movie-list', component: MovieListComponent},
   {path: 'Auto-complete', component: AutocompleteComponent},
   {path: 'Checkbox', component: CheckboxComponent},

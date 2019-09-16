@@ -1,0 +1,22 @@
+<div class="bloque">
+    <div class="nombre">
+
+    </div>
+    <div class="accion">
+        <mat-form-field>
+            <input type="text" placeholder="Colores" matInput [matAutocomplete]='auto'>
+            <mat-autocomplete #auto='matAutocomplete'>
+                <mat-option *ngFor="let color of Colores" [value]="color.color">{{color.color}}</mat-option>
+            </mat-autocomplete>
+        </mat-form-field>
+    </div>
+</div>
+
+<div class="bloque">
+        <div class="nombre">
+    
+        </div>
+        <div class="accion">
+            
+        </div>
+    </div>
