@@ -9,7 +9,9 @@ import { MatTableModule } from '@angular/material/table';
 import { MovieService } from './service/movie.service';
 import { TeachersComponent } from './teachers/teachers.component';
 import { AutocompleteComponent } from './autocomplete/autocomplete.component';
-import { MatFormFieldModule, MatAutocompleteModule, MatOptionModule, MatInputModule } from '@angular/material';
+import { MatFormFieldModule, MatAutocompleteModule, MatOptionModule, MatInputModule, 
+        MatCheckboxModule } from '@angular/material';
+import { CheckboxComponent } from './checkbox/checkbox.component';
 
 
 
@@ -18,7 +20,8 @@ import { MatFormFieldModule, MatAutocompleteModule, MatOptionModule, MatInputMod
     AppComponent,
     MovieListComponent,
     TeachersComponent,
-    AutocompleteComponent
+    AutocompleteComponent,
+    CheckboxComponent
   ],
   imports: [
     BrowserModule,
@@ -28,7 +31,8 @@ import { MatFormFieldModule, MatAutocompleteModule, MatOptionModule, MatInputMod
     MatFormFieldModule,
     MatAutocompleteModule,
     MatOptionModule,
-    MatInputModule
+    MatInputModule,
+    MatCheckboxModule
   ],
   providers: [MovieService],
   bootstrap: [AppComponent]
