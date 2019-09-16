@@ -8,6 +8,7 @@ import { CheckboxComponent} from './checkbox/checkbox.component';
 import { DatapickerComponent } from './datapicker/datapicker.component';
 import { FormfieldComponent } from './formfield/formfield.component';
 import { InputComponent } from './input/input.component';
+import { RadiobuttonComponent } from './radiobutton/radiobutton.component';
 
 
 const routes: Routes = [
@@ -18,6 +19,7 @@ const routes: Routes = [
   {path: 'Datepicker', component: DatapickerComponent},
   {path: 'teachers', component: TeachersComponent},
   {path: 'Input', component: InputComponent},
+  {path: 'Radio-button', component: RadiobuttonComponent},
   {path: 'Form-field', component: FormfieldComponent}
 ];
 
