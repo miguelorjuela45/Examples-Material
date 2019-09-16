@@ -1,0 +1,6 @@
+<mat-form-field>
+    <mat-label>comidas</mat-label>
+    <mat-select>
+        <mat-option *ngFor="let comida of comidas" [value]="comida">{{comida}}</mat-option>
+    </mat-select>
+</mat-form-field>
