@@ -8,19 +8,27 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatTableModule } from '@angular/material/table';
 import { MovieService } from './service/movie.service';
 import { TeachersComponent } from './teachers/teachers.component';
+import { AutocompleteComponent } from './autocomplete/autocomplete.component';
+import { MatFormFieldModule, MatAutocompleteModule, MatOptionModule, MatInputModule } from '@angular/material';
+
 
 
 @NgModule({
   declarations: [
     AppComponent,
     MovieListComponent,
-    TeachersComponent
+    TeachersComponent,
+    AutocompleteComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatTableModule
+    MatTableModule,
+    MatFormFieldModule,
+    MatAutocompleteModule,
+    MatOptionModule,
+    MatInputModule
   ],
   providers: [MovieService],
   bootstrap: [AppComponent]
