@@ -6,6 +6,7 @@ import { TeachersComponent} from './teachers/teachers.component';
 import { AutocompleteComponent} from './autocomplete/autocomplete.component';
 import { CheckboxComponent} from './checkbox/checkbox.component';
 import { DatapickerComponent } from './datapicker/datapicker.component';
+import { FormfieldComponent } from './formfield/formfield.component';
 
 
 const routes: Routes = [
@@ -14,7 +15,8 @@ const routes: Routes = [
   {path: 'Auto-complete', component: AutocompleteComponent},
   {path: 'Checkbox', component: CheckboxComponent},
   {path: 'Datepicker', component: DatapickerComponent},
-  {path: 'teachers', component: TeachersComponent}
+  {path: 'teachers', component: TeachersComponent},
+  {path: 'Form-field', component: FormfieldComponent}
 ];
 
 @NgModule({

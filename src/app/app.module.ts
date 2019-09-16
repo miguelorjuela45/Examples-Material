@@ -13,6 +13,7 @@ import { MatFormFieldModule, MatAutocompleteModule, MatOptionModule, MatInputMod
         MatCheckboxModule, MatDatepickerModule, MatNativeDateModule} from '@angular/material';
 import { CheckboxComponent } from './checkbox/checkbox.component';
 import { DatapickerComponent } from './datapicker/datapicker.component';
+import { FormfieldComponent } from './formfield/formfield.component';
 
 
 
@@ -23,7 +24,8 @@ import { DatapickerComponent } from './datapicker/datapicker.component';
     TeachersComponent,
     AutocompleteComponent,
     CheckboxComponent,
-    DatapickerComponent
+    DatapickerComponent,
+    FormfieldComponent
   ],
   imports: [
     BrowserModule,
