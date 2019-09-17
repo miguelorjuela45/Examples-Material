@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Colores } from '../dto/datos';
-import { AutocompleteService } from '../service/autocomplete.service';
+import { Colores, Musica } from '../dto/datos';
 
 @Component({
   selector: 'app-principal',
@@ -9,11 +8,7 @@ import { AutocompleteService } from '../service/autocomplete.service';
 })
 export class PrincipalComponent implements OnInit {
 
-  displayedColumns: string[] = ['color'];
-  Colores: Colores[];
-
-  constructor(private autocompleteService: AutocompleteService) {
-    this.Colores = this.autocompleteService.getColor();
+  constructor() {
    }
 
   ngOnInit() {

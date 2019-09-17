@@ -41,7 +41,7 @@ import { PrincipalComponent } from './principal/principal.component';
     SelectComponent,
     SliderComponent,
     SlidetoggleComponent,
-    PrincipalComponent
+    PrincipalComponent,
   ],
   imports: [
     BrowserModule,
@@ -59,7 +59,9 @@ import { PrincipalComponent } from './principal/principal.component';
     MatSelectModule,
     MatSliderModule,
     MatSlideToggleModule,
-    MatTabsModule
+    MatTabsModule,
+    MatFormFieldModule,
+    MatInputModule
   ],
   providers: [MovieService],
   bootstrap: [AppComponent]

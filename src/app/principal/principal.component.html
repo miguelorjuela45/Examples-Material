@@ -1,22 +1,15 @@
-<div class="bloque">
-    <div class="nombre">
-
-    </div>
-    <div class="accion">
-        <mat-form-field>
-            <input type="text" placeholder="Colores" matInput [matAutocomplete]='auto'>
-            <mat-autocomplete #auto='matAutocomplete'>
-                <mat-option *ngFor="let color of Colores" [value]="color.color">{{color.color}}</mat-option>
-            </mat-autocomplete>
-        </mat-form-field>
-    </div>
+<div>
+    <mat-form-field>
+        <a [routerLink]="[ '/Auto-complete' ]" routerLinkActive="active">Auto complete</a><br>
+        <a [routerLink]="[ '/Checkbox' ]" routerLinkActive="active">Checkbox</a><br>
+        <a [routerLink]="[ '/Datepicker' ]" routerLinkActive="active">Datepicker</a><br>
+        <a [routerLink]="[ '/Input' ]" routerLinkActive="active">Input</a><br>
+        <a [routerLink]="[ '/Radio-button' ]" routerLinkActive="active">Radio button</a><br>
+    </mat-form-field>
+    <mat-form-field>
+        <a [routerLink]="[ '/Slider' ]" routerLinkActive="active">slider</a><br>
+        <a [routerLink]="[ '/Slide-toogle' ]" routerLinkActive="active">slide toogle</a><br>
+        <a [routerLink]="[ '/Form-field' ]" routerLinkActive="active">form field</a><br>
+        <a [routerLink]="[ '/Select' ]" routerLinkActive="active">select</a><br>
+    </mat-form-field>
 </div>
-
-<div class="bloque">
-        <div class="nombre">
-    
-        </div>
-        <div class="accion">
-            
-        </div>
-    </div>
